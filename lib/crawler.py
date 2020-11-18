@@ -1,4 +1,4 @@
-#search for repos, given a start url
+#search for repos, given an initial url
 
-def crawl (start_url):
+def crawl (init_url):
 	pass
