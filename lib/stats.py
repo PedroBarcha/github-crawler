@@ -1,1 +1,1 @@
-#get statistics of a list of github repos 
+#get statistics of a list of github repos' features
