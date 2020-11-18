@@ -1,1 +1,1 @@
-from lib import featuresextract, crawler
+from lib import featuresextract, crawler, stats
