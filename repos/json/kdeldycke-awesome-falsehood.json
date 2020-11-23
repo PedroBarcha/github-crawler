@@ -1,0 +1,512 @@
+[
+  {
+    "name": "Falsehoods Programmers Believe",
+    "url": "https://spaceninja.com/2015/12/07/falsehoods-programmers-believe/",
+    "description": "A"
+  },
+  {
+    "name": "Falsehoods About Programming",
+    "url": "https://chiselapp.com/user/ttmrichter/repository/gng/doc/trunk/output/falsehoods.html",
+    "description": "A"
+  },
+  {
+    "name": "Falsehoods About Falsehoods Lists",
+    "url": "https://kevin.deldycke.com/2016/12/falsehoods-programmers-believe-about-falsehoods-lists/",
+    "description": "Meta"
+  },
+  {
+    "name": "Falsehoods About Music",
+    "url": "https://literateprogrammer.blogspot.fr/2016/07/falsehoods-programmers-believe-about.html",
+    "description": "False"
+  },
+  {
+    "name": "Falsehoods About Art",
+    "url": "http://artsy.github.io/blog/2018/04/18/programmer-misconceptions-about-art/",
+    "description": "Common"
+  },
+  {
+    "name": "Falsehoods About Online Shopping",
+    "url": "http://wiesmann.codiferes.net/wordpress/?p=22201",
+    "description": "Covers"
+  },
+  {
+    "name": "Falsehoods About Prices",
+    "url": "https://gist.github.com/rgs/6509585",
+    "description": "Covers"
+  },
+  {
+    "name": "Falsehoods About IBANs",
+    "url": "https://github.com/globalcitizen/php-iban/blob/master/docs/FALSEHOODS.md",
+    "description": "International"
+  },
+  {
+    "name": "Falsehoods About Economics",
+    "url": "http://exple.tive.org/blarg/2016/09/22/falsehoods-programmers-believe-about-economics/",
+    "description": "Economics"
+  },
+  {
+    "name": "Falsehoods About Cars",
+    "url": "https://github.com/driveto/falsehoods-about-cars",
+    "description": "Even"
+  },
+  {
+    "name": "Decimal Point Error in Etsy's Accounting System",
+    "url": "https://www.reddit.com/r/Etsy/comments/hz4877/if_you_are_an_etsy_seller_do_not_purchase_postage/",
+    "description": "The importance of types in accounting software: missing the decimal point ends up with 100x over-charges."
+  },
+  {
+    "name": "Characters < and > in company names lead to XSS attacks",
+    "url": "https://forum.aws.chdev.org/t/cross-site-scripting-xss-software-attack/3355",
+    "description": "Because UK allows companies to be registered with special characters, a hacker leveraged them to register \\\"><SCRIPT SRC=MJT.XSS.HT></SCRIPT> LTD, but also ; DROP TABLE \"COMPANIES\";-- LTD, BETTS &AMP; TWINE LTD and SAFDASD & SFSAF \\' SFDAASF\\\" LTD."
+  },
+  {
+    "name": "CLDR currency definitions",
+    "url": "http://unicode.org/cldr/trac/browser/tags/release-31/common/supplemental/supplementalData.xml#L81",
+    "description": "Currency"
+  },
+  {
+    "name": "tax",
+    "url": "https://github.com/commerceguys/tax",
+    "description": "A PHP 5.4+ tax management"
+  },
+  {
+    "name": "Falsehoods About Time",
+    "url": "http://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time",
+    "description": "Seminal"
+  },
+  {
+    "name": "More Falsehoods About Time",
+    "url": "http://infiniteundo.com/post/25509354022/more-falsehoods-programmers-believe-about-time",
+    "description": "Part."
+  },
+  {
+    "name": "Falsehoods About Time and Time Zones",
+    "url": "https://www.creativedeletion.com/2015/01/28/falsehoods-programmers-date-time-zones.html",
+    "description": "Another"
+  },
+  {
+    "name": "Critique of Falsehoods About Time",
+    "url": "https://gist.github.com/thanatos/eee17100476a336a711e",
+    "description": "Takes"
+  },
+  {
+    "name": "Your Calendrical Fallacy Is Thinking…",
+    "url": "http://yourcalendricalfallacyis.com",
+    "description": "List"
+  },
+  {
+    "name": "Time Zone Database",
+    "url": "https://www.iana.org/time-zones",
+    "description": "Code and data that"
+  },
+  {
+    "name": "The Long, Painful History of Time",
+    "url": "http://naggum.no/lugm-time.html",
+    "description": "Most"
+  },
+  {
+    "name": "You Advocate a Calendar Reform",
+    "url": "https://qntm.org/calendar",
+    "description": "Your idea will"
+  },
+  {
+    "name": "Falsehoods programmers believe about time zones",
+    "url": "https://www.zainrizvi.io/blog/falsehoods-programmers-believe-about-time-zones/",
+    "description": "Has some nice points regarding the edge-cases of DST transitions."
+  },
+  {
+    "name": "So You Want to Abolish Time Zones",
+    "url": "https://qntm.org/abolish",
+    "description": "Abolishing"
+  },
+  {
+    "name": "The Problem with Time & Timezones",
+    "url": "https://www.youtube.com/watch?v=-5wpm-gesOY",
+    "description": "A"
+  },
+  {
+    "name": "$26,000 Overcollection by Labor Department",
+    "url": "http://digital.vpr.net/post/rounding-error-computer-code-leads-26000-overcollection-labor-department",
+    "description": "The"
+  },
+  {
+    "name": "ISO-8601, YYYY, yyyy, and why your year may be wrong",
+    "url": "https://ericasadun.com/2018/12/25/iso-8601-yyyy-yyyy-and-why-your-year-may-be-wrong/",
+    "description": "String"
+  },
+  {
+    "name": "UTC is Enough for everyone, right?",
+    "url": "https://zachholman.com/talk/utc-is-enough-for-everyone-right",
+    "description": "There"
+  },
+  {
+    "name": "Storing UTC is not a silver bullet",
+    "url": "https://codeblog.jonskeet.uk/2019/03/27/storing-utc-is-not-a-silver-bullet/",
+    "description": "\"Just"
+  },
+  {
+    "name": "Falsehoods about Unix Time",
+    "url": "https://alexwlchan.net/2019/05/falsehoods-programmers-believe-about-unix-time/",
+    "description": "Mind"
+  },
+  {
+    "name": "Why is subtracting these two times (in 1927) giving a strange result?",
+    "url": "https://stackoverflow.com/a/6841479/57311",
+    "description": "Infamous"
+  },
+  {
+    "name": "Critical and Significant Dates",
+    "url": "https://web.archive.org/web/20150908004245/http://www.merlyn.demon.co.uk/critdate.htm",
+    "description": "From Y2K to the overflow of 32-bit seconds from unix epoch, a list of special date to watch for depending on the system."
+  },
+  {
+    "name": "Falsehoods CS Students (Still) Believe Upon Graduating",
+    "url": "https://www.netmeister.org/blog/cs-falsehoods.html",
+    "description": "A"
+  },
+  {
+    "name": "Postdoc myths",
+    "url": "https://www.cs.kent.ac.uk/people/staff/srk21/blog/2019/12/02/",
+    "description": "Lots of things are said, written and believed about postdoctoral researchers that are simply not true.."
+  },
+  {
+    "name": "I Knew How to Validate an Email Address Until I Read the RFC",
+    "url": "https://haacked.com/archive/2007/08/21/i-knew-how-to-validate-an-email-address-until-i.aspx/",
+    "description": "Provides"
+  },
+  {
+    "name": "So you think you can validate email addresses (FOSDEM 2018)",
+    "url": "https://fosdem.org/2018/schedule/event/email_address_quiz/",
+    "description": "Presentation"
+  },
+  {
+    "name": "Falsehoods About Geography",
+    "url": "http://wiesmann.codiferes.net/wordpress/?p=15187",
+    "description": "Takes"
+  },
+  {
+    "name": "Falsehoods About Maps",
+    "url": "http://www.atlefren.net/post/2014/09/falsehoods-programmers-believe-about-maps/",
+    "description": "Covers"
+  },
+  {
+    "name": "I Hate Coordinate Systems",
+    "url": "https://ihatecoordinatesystems.com",
+    "description": "A guide for geospatial practitionners oin diagnosing and fixing common issues with coordinate systems."
+  },
+  {
+    "name": "Top 5 most insane kanji place names in Japan",
+    "url": "https://soranews24.com/2016/12/01/w-t-f-japan-top-5-most-insane-kanji-place-names-in-japan%e3%80%90weird-top-five%e3%80%91/",
+    "description": "“There's one special group of kanji that’s hard even for Japanese people to read: place names.”"
+  },
+  {
+    "name": "Falsehoods About Names",
+    "url": "https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/",
+    "description": "The"
+  },
+  {
+    "name": "Falsehoods About Names – With Examples",
+    "url": "https://shinesolutions.com/2018/01/08/falsehoods-programmers-believe-about-names-with-examples/",
+    "description": "A"
+  },
+  {
+    "name": "Falsehoods About Gender: #1 & #2",
+    "url": "https://gist.github.com/garbados/f82604ea639e0e47bf44",
+    "description": "Gender"
+  },
+  {
+    "name": "Gay Marriage: The Database Engineering Perspective",
+    "url": "https://web.archive.org/web/20170914014648/https://qntm.org/gay",
+    "description": "How"
+  },
+  {
+    "name": "Falsehoods Programmers Believe About Families",
+    "url": "https://shkspr.mobi/blog/2017/03/falsehoods-programmers-believe-about-families/",
+    "description": "You"
+  },
+  {
+    "name": "Personal Names Around the World",
+    "url": "https://www.w3.org/International/questions/qa-personal-names",
+    "description": "How"
+  },
+  {
+    "name": "XKCD #327: Exploits of a Mom",
+    "url": "https://xkcd.com/327/",
+    "description": "Funny take on how"
+  },
+  {
+    "name": "Hello, I'm Mr. Null. My Name Makes Me Invisible to Computers",
+    "url": "https://www.wired.com/2015/11/null/",
+    "description": "Real-life"
+  },
+  {
+    "name": "My name causes an issue with any booking!",
+    "url": "https://travel.stackexchange.com/questions/149323/my-name-causes-an-issue-with-any-booking-names-end-with-mr-and-mrs",
+    "description": "Old"
+  },
+  {
+    "name": "HL7 v3 RIM",
+    "url": "https://www.hl7.org/implement/standards/product_brief.cfm?product_id=186",
+    "description": "A"
+  },
+  {
+    "name": "Apple iOS NSPersonNameComponentsFormatter",
+    "url": "https://developer.apple.com/library/ios/documentation/Miscellaneous/Reference/NSPersonNameComponentsFormatter_Class/index.html",
+    "description": "Localized"
+  },
+  {
+    "name": "Falsehoods About Me",
+    "url": "https://skylarmacdonald.com/falsehoods/",
+    "description": "Issues at"
+  },
+  {
+    "name": "Falsehoods About Language",
+    "url": "http://garbled.benhamill.com/2017/04/18/falsehoods-programmers-believe-about-language",
+    "description": "Translating"
+  },
+  {
+    "name": "Internationalis(z)ing Code",
+    "url": "https://www.youtube.com/watch?v=0j74jcxSunY",
+    "description": "A"
+  },
+  {
+    "name": "Minimum to Know About Unicode and Character Sets",
+    "url": "https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/",
+    "description": "A"
+  },
+  {
+    "name": "Awesome Unicode",
+    "url": "https://github.com/Wisdom/Awesome-Unicode",
+    "description": "A curated list"
+  },
+  {
+    "name": "Dark corners of Unicode",
+    "url": "https://eev.ee/blog/2015/09/12/dark-corners-of-unicode/",
+    "description": "Unicode"
+  },
+  {
+    "name": "Let's Stop Ascribing Meaning to Code Points",
+    "url": "https://manishearth.github.io/blog/2017/01/14/stop-ascribing-meaning-to-unicode-code-points/",
+    "description": "Dives"
+  },
+  {
+    "name": "Breaking Our Latin-1 Assumptions",
+    "url": "https://manishearth.github.io/blog/2017/01/15/breaking-our-latin-1-assumptions/",
+    "description": "Most"
+  },
+  {
+    "name": "Ode to a shipping label",
+    "url": "http://i.imgur.com/4J7Il0m.jpg",
+    "description": "Character"
+  },
+  {
+    "name": "i18n Testing Data",
+    "url": "https://github.com/patch/i18n-testing",
+    "description": "Compilation of"
+  },
+  {
+    "name": "Big List of Naughty Strings",
+    "url": "https://github.com/minimaxir/big-list-of-naughty-strings",
+    "description": "A"
+  },
+  {
+    "name": "Falsehoods About Job Applicants",
+    "url": "https://web.archive.org/web/20170114022820/https://medium.com/@creatrixtiara/falsehoods-programmers-believe-about-job-applicants-99280437c616",
+    "description": "Assumptions"
+  },
+  {
+    "name": "Falsehoods About Video",
+    "url": "https://haasn.xyz/posts/2016-12-25-falsehoods-programmers-believe-about-%5Bvideo-stuff%5D.html",
+    "description": "Cover"
+  },
+  {
+    "name": "Falsehoods About Networks",
+    "url": "http://blog.erratasec.com/2012/06/falsehoods-programmers-believe-about.html",
+    "description": "Covers"
+  },
+  {
+    "name": "Fallacies of Distributed Computing",
+    "url": "https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing",
+    "description": "Assumptions"
+  },
+  {
+    "name": "There's more than one way to write an IP address",
+    "url": "https://ma.ttias.be/theres-more-than-one-way-to-write-an-ip-address/",
+    "description": "Some"
+  },
+  {
+    "name": "hostname-validate",
+    "url": "https://github.com/jakeogh/hostname-validate",
+    "description": "An"
+  },
+  {
+    "name": "Falsehoods About Phone Numbers",
+    "url": "https://github.com/googlei18n/libphonenumber/blob/master/FALSEHOODS.md",
+    "description": "Covers"
+  },
+  {
+    "name": "libphonenumber",
+    "url": "https://github.com/googlei18n/libphonenumber",
+    "description": "Google's"
+  },
+  {
+    "name": "Falsehoods About Addresses",
+    "url": "https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/",
+    "description": "Covers"
+  },
+  {
+    "name": "Falsehoods About Residence",
+    "url": "https://twitter.com/samphippen/status/813896916534784004",
+    "description": "It's"
+  },
+  {
+    "name": "Letter Delivered Despite No Name, No Address",
+    "url": "https://twitter.com/loriskumo/status/735851511331356672",
+    "description": "Ultimate"
+  },
+  {
+    "name": "The Bear with Its Own ZIP Code",
+    "url": "https://kottke.org/19/08/the-bear-with-its-own-zip-code",
+    "description": "Smokey"
+  },
+  {
+    "name": "Regex and Postal Addresses",
+    "url": "https://smartystreets.com/articles/regular-expressions-for-street-addresses",
+    "description": "Why"
+  },
+  {
+    "name": "Parsing the Infamous Japanese Postal CSV",
+    "url": "https://www.dampfkraft.com/posuto.html",
+    "description": "“I saw many horrors, but I've never seen this particular formatting choice anywhere else.”"
+  },
+  {
+    "name": "libaddressinput",
+    "url": "https://github.com/googlei18n/libaddressinput",
+    "description": "Google's"
+  },
+  {
+    "name": "addressing",
+    "url": "https://github.com/commerceguys/addressing",
+    "description": "A PHP 5.4+"
+  },
+  {
+    "name": "postal-address",
+    "url": "https://github.com/scaleway/postal-address",
+    "description": "Python"
+  },
+  {
+    "name": "address",
+    "url": "https://github.com/Boostport/address",
+    "description": "Go library to validate"
+  },
+  {
+    "name": "Falsehoods About Systems of Measurement",
+    "url": "https://www.stevemoser.org/posts/dev/falsehoods-programmers-believe-about-systems-of-measurement.html",
+    "description": "On"
+  },
+  {
+    "name": "Falsehoods About Political Appointments",
+    "url": "https://twitter.com/oliver_dw/status/737930439575404544",
+    "description": "Designing"
+  },
+  {
+    "name": "Falsehoods About Women In Tech",
+    "url": "https://gist.github.com/Su-Shee/5d1a417fa9de19c15477",
+    "description": "Myth"
+  },
+  {
+    "name": "Falsehoods About Versions",
+    "url": "https://github.com/xenoterracide/falsehoods/blob/master/versions.md",
+    "description": "Attributing"
+  },
+  {
+    "name": "Falsehoods About Build Systems",
+    "url": "https://pozorvlak.livejournal.com/174763.html",
+    "description": "Building"
+  },
+  {
+    "name": "Myths About File Paths",
+    "url": "https://yakking.branchable.com/posts/falsehoods-programmers-believe-about-file-paths/",
+    "description": "Diversity"
+  },
+  {
+    "name": "Falsehoods About REST APIs",
+    "url": "http://slinkp.com/falsehoods-programmers-believe-about-apis.html",
+    "description": "Pitfalls"
+  },
+  {
+    "name": "Falsehoods About CSVs",
+    "url": "https://donatstudios.com/Falsehoods-Programmers-Believe-About-CSVs",
+    "description": "While"
+  },
+  {
+    "name": "Falsehoods About Package Managers",
+    "url": "https://meta-package-manager.readthedocs.io/en/develop/falsehoods.html",
+    "description": "Covers"
+  },
+  {
+    "name": "Falsehoods About Testing",
+    "url": "https://club.ministryoftesting.com/t/falsehoods-testers-believe/1371",
+    "description": "An"
+  },
+  {
+    "name": "Popular misconceptions about mtime",
+    "url": "https://apenwarr.ca/log/20181113",
+    "description": "Part"
+  },
+  {
+    "name": "Falsehoods About Pagination",
+    "url": "https://www.hezmatt.org/~mpalmer/blog/2018/12/12/falsehoods-programmers-believe-about-pagination.html",
+    "description": "Why"
+  },
+  {
+    "name": "Rules for Autocomplete",
+    "url": "http://jeremymikkola.com/posts/2019_03_19_rules_for_autocomplete.html",
+    "description": "Not"
+  },
+  {
+    "name": "Floating Point Math",
+    "url": "https://0.30000000000000004.com",
+    "description": "\"Your language isn't"
+  },
+  {
+    "name": "Falsehoods About Search",
+    "url": "https://opensourceconnections.com/blog/2019/05/29/falsehoods-programmers-believe-about-search/",
+    "description": "Why"
+  },
+  {
+    "name": "Hi! My name is…",
+    "url": "https://www.youtube.com/watch?v=NIebelIpdYk",
+    "description": "This talk"
+  },
+  {
+    "name": "Myths about /dev/urandom",
+    "url": "https://www.2uo.de/myths-about-urandom",
+    "description": "There"
+  },
+  {
+    "name": "Myths about CPU Caches",
+    "url": "https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/",
+    "description": "Misconceptions"
+  },
+  {
+    "name": "The Hidden Complexity of Downloading Favicons, Told in 15+ Edge Cases",
+    "url": "https://www.simplecto.com/complexity-downloading-favicons-told-in-15-plus-edge-cases/",
+    "description": "Downloading that little icon you see in you browser tabs should be a simple exercise. It turned out to be a lot more complicated than you think. Be vigilant that you are not shaving a Yak."
+  },
+  {
+    "name": "Norway is not False",
+    "url": "https://mobile.twitter.com/chrisjrn/status/1232016100038266880",
+    "description": "Norway's ISO country code is also valid YAML for False."
+  },
+  {
+    "name": "Falsehoods About Fonts",
+    "url": "https://github.com/RoelN/Font-Falsehoods",
+    "description": "Assumptions"
+  },
+  {
+    "name": "Truths programmers should know about case",
+    "url": "https://www.b-list.org/weblog/2018/nov/26/case/",
+    "description": "A"
+  }
+]

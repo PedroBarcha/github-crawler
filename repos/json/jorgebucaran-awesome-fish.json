@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Official Site",
+    "url": "https://fishshell.com"
+  },
+  {
+    "name": "GitHub Repository",
+    "url": "https://github.com/fish-shell/fish-shell"
+  },
+  {
+    "name": "Try in browser! 🍤",
+    "url": "https://rootnroll.com/d/fish-shell/"
+  },
+  {
+    "name": "r/fishshell",
+    "url": "https://www.reddit.com/r/fishshell"
+  },
+  {
+    "name": "Gitter Channel",
+    "url": "https://gitter.im/fish-shell/fish-shell"
+  },
+  {
+    "name": "StackOverflow #fish",
+    "url": "https://stackoverflow.com/questions/tagged/fish"
+  },
+  {
+    "name": "The Fish Cookbook",
+    "url": "https://github.com/jorgebucaran/fish-cookbook"
+  },
+  {
+    "name": "Fisher",
+    "url": "https://github.com/jorgebucaran/fisher",
+    "description": "Manage functions, completions, bindings, and snippets from the CLI."
+  },
+  {
+    "name": "Fundle",
+    "url": "https://github.com/danhper/fundle",
+    "description": "config.fish-based plugin manager inspired by Vundle."
+  },
+  {
+    "name": "Tacklebox",
+    "url": "https://github.com/justinmayer/tacklebox",
+    "description": "Configuration framework for organizing and sharing utilities."
+  },
+  {
+    "name": "Oh My Fish!",
+    "url": "https://github.com/oh-my-fish/oh-my-fish",
+    "description": "OMZ-inspired shell configuration framework."
+  },
+  {
+    "name": "Tide",
+    "url": "https://github.com/IlanCosman/tide",
+    "description": "A modern prompt manager for fish."
+  },
+  {
+    "name": "Pure",
+    "url": "https://github.com/rafaelrinaldi/pure",
+    "description": "Port of the original pure prompt."
+  },
+  {
+    "name": "Mono",
+    "url": "https://github.com/fishpkg/mono",
+    "description": "No bells or whistles, minimal shell prompt."
+  },
+  {
+    "name": "Bobthefish",
+    "url": "https://github.com/oh-my-fish/theme-bobthefish",
+    "description": "Powerline-style, Git-aware shell prompt."
+  },
+  {
+    "name": "Async Prompt",
+    "url": "https://github.com/acomagu/fish-async-prompt",
+    "description": "Make your prompt asynchronous!"
+  },
+  {
+    "name": "Lucid",
+    "url": "https://github.com/mattgreen/lucid.fish",
+    "description": "Minimalist, high-performance prompt with async Git dirty check."
+  },
+  {
+    "name": "Z",
+    "url": "https://github.com/jethrokuan/z",
+    "description": "Pure-fish rupa/z-like directory jumping."
+  },
+  {
+    "name": "Fzf",
+    "url": "https://github.com/jethrokuan/fzf",
+    "description": "Ef-🐟ient fish keybindings for fzf. (Alternative)."
+  },
+  {
+    "name": "Bax",
+    "url": "https://github.com/jorgebucaran/bax.fish",
+    "description": "Run bash scripts from fish."
+  },
+  {
+    "name": "Nvm",
+    "url": "https://github.com/jorgebucaran/nvm.fish",
+    "description": "100% pure-fish Node.js version manager. (Alternative)."
+  },
+  {
+    "name": "Done",
+    "url": "https://github.com/franciscolourenco/done",
+    "description": "Automatically receive notifications when a long process finishes."
+  },
+  {
+    "name": "Spark",
+    "url": "https://github.com/jorgebucaran/spark.fish",
+    "description": "Pure-fish sparkline generator: ▁▂▃▅▂▇ in your shell."
+  },
+  {
+    "name": "Pisces",
+    "url": "https://github.com/laughedelic/pisces",
+    "description": "Autoclose parentheses, braces, quotes and other paired symbols in the command-line."
+  },
+  {
+    "name": "Gitio",
+    "url": "https://github.com/jorgebucaran/gitio.fish",
+    "description": "Create a tiny GitHub URL."
+  },
+  {
+    "name": "GitNow",
+    "url": "https://github.com/joseluisq/gitnow",
+    "description": "A collection of utility functions set to speed up your git workflow."
+  },
+  {
+    "name": "Getopts",
+    "url": "https://github.com/jorgebucaran/getopts.fish",
+    "description": "CLI options parser; alternative to the argparse builtin."
+  },
+  {
+    "name": "Fishtape",
+    "url": "https://github.com/jorgebucaran/fishtape",
+    "description": "TAP-based test runner for fish."
+  },
+  {
+    "name": "Virtualfish",
+    "url": "https://github.com/adambrenecki/virtualfish",
+    "description": "Virtualenv wrapper."
+  },
+  {
+    "name": "Apple Touchbar",
+    "url": "https://github.com/rodrigobdz/fish-apple-touchbar",
+    "description": "Customize your Touch Bar in iTerm2."
+  },
+  {
+    "name": "Abbreviation Tips",
+    "url": "https://github.com/Gazorby/fish-abbreviation-tips",
+    "description": "Help you remembering abbreviations by displaying tips when you can use them."
+  },
+  {
+    "name": "Ubuntu LTS container",
+    "url": "https://hub.docker.com/r/dideler/fish-shell"
+  }
+]
