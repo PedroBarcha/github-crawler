@@ -3,9 +3,10 @@ from lib import reposurls
 import os 
 
 repos_jsons_path = "repos/json/"
+repos_urls_output_file = "repos/urls.txt"
 
 # get repos' URLs (BRADA)
-repos_urls = reposurls.getUrls(repos_jsons_path)
+repos_urls = reposurls.getUrls(repos_jsons_path,repos_urls_output_file)
 
 print("Quantidade de repos únicos: "+ str(len(repos_urls)))
 

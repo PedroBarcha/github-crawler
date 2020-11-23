@@ -5,7 +5,7 @@ import re
 import os 
 
 
-def getUrls (repos_jsons_path):
+def getUrls (repos_jsons_path,repos_urls_output_file):
 	# get repos' json files
 	repos_jsons = []
 
@@ -34,5 +34,11 @@ def getUrls (repos_jsons_path):
 		if (re.search(r".*github.com/.*/.*", url)):
 			if not (re.search(r".*github.com/.*/.*/.+", url)):
 				repos_unique_urls.append(url)
+
+	#write output file
+	for url in repos_unique_urls:
+		with open(repos_urls_output_file, 'a') as file:
+			file.write(url + '\n')
+
 
 	return repos_unique_urls
