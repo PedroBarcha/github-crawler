@@ -1,11 +1,9 @@
 # get features from certain github repo
-
 #Parser de url
 import giturlparse
 
 #Carrega as Env variables, do arquivo .env
 from dotenv import load_dotenv
-import os
 load_dotenv()
 
 #Colocar seu token em .env
@@ -17,7 +15,7 @@ from sgqlc.types import Int, Enum, Field, Type, list_of, String, ID
 from sgqlc.types.relay import Node, Connection, connection_args
 from sgqlc.endpoint.http import HTTPEndpoint
 
-#Classes representando a estrutura da query,mover deste arquivo
+#TODO: Classes representando a estrutura da query,mover deste arquivo
 class IssueState(Enum):
     __choices__ = ('CLOSED', 'OPEN')
 
@@ -76,8 +74,7 @@ def extractRepo(dono, nome):
     query.repository.issues(states=IssueState.__to_graphql_input__(IssueState.OPEN))
     query.repository.issues.totalCount()
     query.repository.watchers.totalCount()
-    query.repository.forkCount()
-    query.repository.stargazerCount()
+    query.repository.__fields__('forkCount', "stargazerCount")
     query.repository.licenseInfo.name()
     print(query)
 
@@ -93,7 +90,7 @@ def extractRepo(dono, nome):
 
 # call all other extraction methods below
 def extractAll(url):
-    # Parser de url simples, mover deste arquivo
+    #TODO: Parser de url simples, mover deste arquivo
     p = giturlparse.parse(url)
     if (p.resource != "github.com"):
         print("Host invalido")
@@ -105,3 +102,5 @@ def extractAll(url):
 
 
 
+
+extractAll(input())
