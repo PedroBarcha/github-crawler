@@ -1,20 +1,27 @@
-# from lib import featuresextract, reposurl, stats
-from lib import reposurls
-import os 
+from lib import featuresextract
+from lib import database
+
 
 repos_jsons_path = "repos/json/"
 repos_urls_output_file = "repos/urls.txt"
 
 # get repos' URLs (BRADA)
-repos_urls = reposurls.getUrls(repos_jsons_path,repos_urls_output_file)
+#reposurls.getUrls(repos_jsons_path,repos_urls_output_file)
 
-print("Quantidade de repos únicos: "+ str(len(repos_urls)))
-
-#get features for each repo (TK)
-# repos_features = []
-
+#Popular tabela de usuarios
+# with open('repos/urls_limpas.txt') as f:
+#      repos_urls = f.read().splitlines()
 # for url in repos_urls:
-# 	repos_features.extend(featuresextract.extractAll(url)
+#     try:
+# #Preenche tabela de ususarios
+#         featuresextract.popularLista(url)
+#         database.session.commit()
+#     except Exception as e:
+#         print(e)
+#         database.session.rollback()
+#get all repos information (TK)
+featuresextract.extract_all()
+
 
 
 
