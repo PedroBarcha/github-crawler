@@ -1,6 +1,4 @@
-from lib import featuresextract
-from lib import database
-
+from lib import stats
 
 repos_jsons_path = "repos/json/"
 repos_urls_output_file = "repos/urls.txt"
@@ -20,11 +18,11 @@ repos_urls_output_file = "repos/urls.txt"
 #         print(e)
 #         database.session.rollback()
 #get all repos information (TK)
-featuresextract.extract_all()
+#featuresextract.extract_all()
 
 
 
 
 #stats (GUS)
 # ...
-
+stats.plot_repos_by_license()
