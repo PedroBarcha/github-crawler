@@ -89,9 +89,6 @@ def plot_graph(data, x, y, title):
 
     ax = sns.barplot(x=x, y=y, palette='deep', data = dataset)
 
-    # for index, row in dataset.iterrows():
-    #     print(row.array)
-    #     ax.text(row.name, row.array[0], round(row.array[1], 2), color='black', ha="center")
     show_values_on_bars(ax)
     ax.set_title(title, color='black')
     ax.set_xlabel('')
